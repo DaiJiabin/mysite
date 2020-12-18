@@ -83,14 +83,14 @@ enableEmoji = true
         url = "/about/"
         title = ""
         weight = 5
-      [[languages.en.menu.main]]
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
-        weight = 6
+      # [[languages.en.menu.main]]
+      #  identifier = "github"
+      #  pre = "<i class='fab fa-github fa-fw'></i>"
+      #  post = ""
+      #  name = ""
+      #  url = "https://github.com/dillonzq/LoveIt"
+      #  title = "GitHub"
+      #  weight = 6
     [languages.en.params]
       # site description
       description = "About LoveIt Theme"
@@ -283,14 +283,14 @@ enableEmoji = true
         url = "/about/"
         title = ""
         weight = 5
-      [[languages.zh-cn.menu.main]]
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
-        weight = 6
+      #[[languages.zh-cn.menu.main]]
+      #  identifier = "github"
+      #  pre = "<i class='fab fa-github fa-fw'></i>"
+      #  post = ""
+      #  name = ""
+      #  url = "https://github.com/dillonzq/LoveIt"
+      #  title = "GitHub"
+      #  weight = 6
     [languages.zh-cn.params]
       # 网站描述
       description = "关于 LoveIt 主题"
@@ -479,14 +479,14 @@ enableEmoji = true
         url = "/about/"
         title = ""
         weight = 5
-      [[languages.fr.menu.main]]
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
-        weight = 6
+      #[[languages.fr.menu.main]]
+      #  identifier = "github"
+      #  pre = "<i class='fab fa-github fa-fw'></i>"
+      #  post = ""
+      #  name = ""
+      #  url = "https://github.com/dillonzq/LoveIt"
+      #  title = "GitHub"
+      #  weight = 6
     [languages.fr.params]
       # site description
       description = "À propos du thème LoveIt"
@@ -687,7 +687,7 @@ enableEmoji = true
     author = true
     # site creation time
     # 网站创立年份
-    since = 2019
+    since = 2020
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
