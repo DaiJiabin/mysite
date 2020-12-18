@@ -2,6 +2,8 @@
 title: "Machine Learning"
 date: 2020-12-18T19:11:53+01:00
 draft: false
+tags: [AI]
+categories: [Learn]
 ---
 
 # Lecture by [Andrew Ng, Coursera](https://www.coursera.org/learn/machine-learning)
@@ -97,7 +99,7 @@ draft: false
     
     $\Theta = \begin{bmatrix}\theta_0, \theta_1, \theta_2, \theta_3, \theta_4\end{bmatrix}$, 
     
-    $X = \begin{bmatrix}  x^1_0 & x^2_0 & x^3_0 & x^4_0 \\ x^1_1 & x^2_1 & x^3_1 & x^4_1 \\ x^1_2 & x^2_2 & x^3_2 & x^4_2 \\ x^1_3 & x^2_3 & x^3_3 & x^4_3 \\ x^1_4 & x^2_4 & x^3_4 & x^4_4 \end{bmatrix}$. 
+    $X = \begin{bmatrix}  x^1_0 & x^2_0 & x^3_0 & x^4_0 \\\\ x^1_1 & x^2_1 & x^3_1 & x^4_1 \\\\ x^1_2 & x^2_2 & x^3_2 & x^4_2 \\\\ x^1_3 & x^2_3 & x^3_3 & x^4_3 \\\\ x^1_4 & x^2_4 & x^3_4 & x^4_4 \end{bmatrix}$. 
     
     So that $h_\theta(x^i) = \Theta * i_{th}$ column of $X$. In Matrix $X$, element $x_0^i \equiv 1$. We can also calculate $\Theta * X$ directly, the $i_{th}$ colum is the value of $h_\theta(x^i)$.
 
@@ -135,6 +137,6 @@ draft: false
 
   $x^i = \begin{bmatrix}x_0^i, x_1^i, ..., x_n^i\end{bmatrix}$
 
-  $X = \begin{bmatrix} x_0^1 & x_1^1 & {...} & x_n^1 \\ x_0^2 & x_1^2 & {...} & x_n^2 \\ ... & ... & ... & ... \\x_0^m & x_1^m & {...} & x_n^m \end{bmatrix}$
+  $X = \begin{bmatrix} x_0^1 & x_1^1 & {...} & x_n^1 \\\\ x_0^2 & x_1^2 & {...} & x_n^2 \\\\ ... & ... & ... & ... \\\\x_0^m & x_1^m & {...} & x_n^m \end{bmatrix}$
 
   In this Matrix, we write __each row the Features of one Training Data__.
