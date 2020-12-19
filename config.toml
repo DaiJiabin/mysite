@@ -67,14 +67,14 @@ enableEmoji = true
         url = "/categories/"
         title = ""
         weight = 3
-      [[languages.en.menu.main]]
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-        weight = 4
+      #[[languages.en.menu.main]]
+      #  identifier = "documentation"
+      #  pre = ""
+      #  post = ""
+      #  name = "Docs"
+      #  url = "/categories/documentation/"
+      #  title = ""
+      #  weight = 4
       [[languages.en.menu.main]]
         identifier = "about"
         pre = ""
@@ -269,10 +269,10 @@ enableEmoji = true
         title = ""
         weight = 3
       [[languages.zh-cn.menu.main]]
-        identifier = "documentation"
+        identifier = "diary"
         pre = ""
-        name = "文档"
-        url = "/categories/documentation/"
+        name = "碎语"
+        url = "/diary/"
         title = ""
         weight = 4
       [[languages.zh-cn.menu.main]]
@@ -464,14 +464,14 @@ enableEmoji = true
         url = "/categories/"
         title = ""
         weight = 3
-      [[languages.fr.menu.main]]
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-        weight = 4
+      #[[languages.fr.menu.main]]
+      #  identifier = "documentation"
+      #  pre = ""
+      #  post = ""
+      #  name = "Docs"
+      #  url = "/categories/documentation/"
+      #  title = ""
+      #  weight = 4
       [[languages.fr.menu.main]]
         identifier = "about"
         pre = ""
