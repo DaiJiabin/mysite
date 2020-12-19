@@ -52,9 +52,7 @@ draft: false
 
   2. German, GER C1.1 - C1.2
 
-    <div style="text-align: center">
-      <img src="../static/TestDaF.jpg"/>
-    </div>
+    ![TestDaF](/TestDaF.jpg)
 
   3. French
   
