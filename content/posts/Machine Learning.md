@@ -4,7 +4,10 @@ date: 2020-12-18T19:11:53+01:00
 draft: false
 tags: [AI]
 categories: [Learn]
+featuredImagePreview: "/Machine-Learning.jpg"
 ---
+
+![Machine-Learning](/Machine-Learning.jpg)
 
 # Lecture by [Andrew Ng, Coursera](https://www.coursera.org/learn/machine-learning)
 
