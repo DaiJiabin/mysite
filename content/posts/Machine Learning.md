@@ -1109,4 +1109,7 @@ featuredImagePreview: "/Machine-Learning.jpg"
 ### Multivariance Gaussian Distribution
 
 - $x \isin \R^n$, don't model $p(x_1), p(x_2)$, ..., etc. separately. Instead, model $p(x)$ all in one go.
+
 - Parameters: $\mu\isin\R^n, \Sigma \isin \R^{n\times n}$, the "convariance matrix"
+
+- $p(x; \mu, \Sigma) = \frac{1}{(2\pi)^{(\frac{n}{2})}|\Sigma|^\frac{1}{2}}exp(=\frac{1}{2}(x - \mu)^T\Sigma^{-1}(x - \mu))$
