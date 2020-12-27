@@ -220,7 +220,7 @@ enableEmoji = true
         XMPP = ""
         Matrix = ""
         Bilibili = ""
-        Email = "kechou.dai@gmail.com"
+        Email = ""
         RSS = false
         # [languages.en.params.social.Mastodon]
           # id = "@xxxx"
@@ -421,7 +421,7 @@ enableEmoji = true
         XMPP = ""
         Matrix = ""
         Bilibili = ""
-        Email = "kechou.dai@gmail.com"
+        Email = ""
         RSS = false
 
   [languages.fr]
@@ -617,7 +617,7 @@ enableEmoji = true
         XMPP = ""
         Matrix = ""
         Bilibili = ""
-        Email = "kechou.dai@gmail.com"
+        Email = ""
         RSS = false
 
 [params]
