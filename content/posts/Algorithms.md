@@ -2,7 +2,12 @@
 title: "Algorithms -- Recursion"
 date: 2021-01-17T16:51:37+01:00
 draft: false
+tags: [Algorithms]
+categories: [Learn]
+featuredImagePreview: "/recursion.png"
 ---
+
+![Recursion](/recursion.png)
 
 # Ideas
 
