@@ -158,13 +158,13 @@ enableEmoji = true
           # 点击频率，点击几次就换挂件
           avatarPluginFrequency = 1
           # 头像挂件总数
-          avatarPluginCount = 128
+          avatarPluginCount = 126
           # title shown in home page (HTML format is supported)
           title = "Dai Jiabin"
           # subtitle shown in home page
           subtitle = " Codes are like Poems... But I've never been to Barcelona. "
           # whether to use typeit animation for subtitle
-          typeit = false
+          typeit = true
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
@@ -691,12 +691,12 @@ enableEmoji = true
       post = ""
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
-      typeit = false
+      typeit = true
 
   # Footer config
   # 页面底部信息配置
   [params.footer]
-    enable = true
+    enable = false
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
     custom = ''
