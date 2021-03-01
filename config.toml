@@ -152,9 +152,9 @@ enableEmoji = true
           gravatarEmail = "1095053393@qq.com"
           # URL of avatar shown in home page
           # avatarURL = "/images/avatar.jpg"
-          avatarPluginURL = "/images/avatar-plug/bilibili_27.png"
+          avatarPluginURL = "/images/avatar-plug/bilibili_17.png"
           # 是否启用头像挂件自动刷新
-          avatarPluginFlush = true
+          avatarPluginFlush = false
           # 点击频率，点击几次就换挂件
           avatarPluginFrequency = 1
           # 头像挂件总数
