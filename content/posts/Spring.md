@@ -4,6 +4,7 @@ date: 2021-02-19T20:14:05+01:00
 draft: false
 tags: [Framework]
 categories: [Learn]
+featuredImagePreview: "/spring.jpg"
 ---
 
 # Spring Notes
