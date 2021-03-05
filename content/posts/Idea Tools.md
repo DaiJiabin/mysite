@@ -2,6 +2,9 @@
 title: "Idea Tools"
 date: 2021-03-05T07:20:12+01:00
 draft: false
+tags: [Tool]
+categories: [Tool]
+featuredImagePreview: "/IntelliJ.jpg"
 ---
 
 # Idea Tools - IntelliJ
