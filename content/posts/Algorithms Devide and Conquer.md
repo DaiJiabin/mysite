@@ -7,7 +7,7 @@ categories: [Learn]
 featuredImagePreview: "dinive-conquer-algorithm-1-638.jpg"
 ---
 
-# Algorithms: Devide and Conquer
+# Algorithms 02
 
 ![DC](/dinive-conquer-algorithm-1-638.jpg)
 

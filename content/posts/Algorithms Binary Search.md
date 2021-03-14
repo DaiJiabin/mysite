@@ -7,7 +7,7 @@ categories: [Learn]
 featuredImagePreview: "BS.jpeg"
 ---
 
-# Algorithms: Binary Search
+# Algorithms 01
 
 ![BS](/BS.jpeg)
 
