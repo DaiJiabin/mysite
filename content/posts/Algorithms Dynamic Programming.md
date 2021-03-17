@@ -319,7 +319,7 @@ featuredImagePreview: "dynamicprogramming.png"
                 isPalindrome[i][i + 1] = (s.charAt(i) == s.charAt(i + 1));
             
             for(int length = 2; length < s.length(); length++){
-                // Length of subArea
+                // Length of subArea, from 3 to n
                 // f[i][j] depends on f[i + 1][j - 1]
                 for(int start = 0; start + length < s.length(); start++){
                     isPalindrome[start][start + length] = 
@@ -360,6 +360,108 @@ featuredImagePreview: "dynamicprogramming.png"
             }
             
             return f[s.length()];
+        }
+    }
+    ```
+
+- [LeetCode 139. Word Break](https://leetcode.com/problems/word-break/submissions/)
+
+    ```java
+    class Solution {
+    
+        private int getMaxLength(List<String> wordDict){
+            int maxLength = 0;
+            for(String word:wordDict){
+                maxLength = Math.max(maxLength, word.length());
+            }
+            return maxLength;
+        }
+        
+        public boolean wordBreak(String s, List<String> wordDict) {
+            if(s == null || s.length() == 0)
+                return true;
+            int maxLength = getMaxLength(wordDict);
+            boolean[] canSegment = new boolean[s.length() + 1];
+            
+            canSegment[0] = true;
+            for(int i = 1; i <= s.length(); i++){
+                canSegment[i] = false;
+                for(int lastWordLength = 1; lastWordLength <= maxLength && lastWordLength <= i; lastWordLength++){
+                    if(!canSegment[i - lastWordLength])
+                        continue;
+                    
+                    String word = s.substring(i - lastWordLength, i);
+                    if(wordDict.contains(word)){
+                        canSegment[i] = true;
+                        break;
+                    }
+                }  
+            }
+            
+            return canSegment[s.length()];
+        }
+    }
+    ```
+
+#### Double
+
+1. State: f[i][j] represents Alphabets before i in the first Sequence and Alphabets before j in the second Sequence.
+
+2. Function: f[i][j] = Pairing-Relationship between i and j
+
+3. Initialize: f[i][0] and f[0][i]
+
+4. Answer: f[s1.length()][s2.length()]
+
+- [LeetCode 72. Edit Distance (HARD)](https://leetcode.com/problems/edit-distance/)
+
+    ```java
+    
+    ```
+
+- [LeetCode 115. Distinct Subsequences (HARD)](https://leetcode.com/problems/distinct-subsequences/)
+
+    ```java
+    class Solution {
+        public int numDistinct(String s, String t) {
+            if(s == null || t == null)
+                return 0;
+            int[][] nums = new int[s.length() + 1][t.length() + 1];
+            // Initialization
+            // when t is null, only 1 Method:
+            // delete all Alphabets in s
+            for(int i = 0; i < s.length(); i++)
+                nums[i][0] = 1;
+            // DP
+            for(int i = 1; i <= s.length(); i++){
+                for(int j = 1; j <= t.length(); j++){
+                    nums[i][j] = nums[i - 1][j];
+                    if(s.charAt(i - 1) == t.charAt(j - 1))
+                        nums[i][j] += nums[i - 1][j - 1];
+                }
+            }
+            
+            return nums[s.length()][t.length()];
+        }
+    }
+    ```
+
+- [LeetCode 1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+
+    ```java
+    class Solution {
+        public int longestCommonSubsequence(String text1, String text2) {
+            int[][] f = new int[text1.length() + 1][text2.length() + 1];
+            
+            for(int i = 1; i <= text1.length(); i++){
+                for(int j = 1; j <= text2.length(); j++){
+                    f[i][j] = Math.max(f[i - 1][j], f[i][j - 1]);
+                    if(text1.charAt(i - 1) == text2.charAt(j - 1))
+                        f[i][j] = Math.max(f[i][j], f[i - 1][j - 1] + 1);
+                }
+            }
+            
+            return f[text1.length()][text2.length()];
         }
     }
     ```
