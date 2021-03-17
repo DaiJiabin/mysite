@@ -24,7 +24,7 @@ featuredImagePreview: "dynamicprogramming.png"
 
 ## 4 Points
 
-1. State
+1. Defination of States
 
 2. Transform-Function
 
@@ -45,6 +45,8 @@ featuredImagePreview: "dynamicprogramming.png"
 - when initialize a __2D-Matrix, initialize its 1.st Row and 1.st Column__.
 
 ## Exercises on LeetCode
+
+### Coordinate
 
 - [LeetCode 45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
 
@@ -259,10 +261,12 @@ featuredImagePreview: "dynamicprogramming.png"
                 return 0;
             
             int[] f = new int[nums.length];
+            // Array f storages the LIS in i_th Location
             int max = 0;
             
             for(int i = 0; i < nums.length; i++){
                 f[i] = 1;
+                // the for-loop below picks out the maximum in f[j], j in [0, i)
                 for(int j = 0; j < i; j++){
                     if(nums[j] < nums[i])
                         f[i] = f[i] > f[j] + 1 ? f[i] : f[j] + 1;
@@ -272,6 +276,90 @@ featuredImagePreview: "dynamicprogramming.png"
             }
             
             return max;
+        }
+    }
+    ```
+
+### Subsequence
+
+#### single
+
+1. State: f[i] represents Alphabets / Numbers / Locations __before__ i ( different from LIS, ont i_th )
+
+2. Function: f[i] = f[j]...( j < i )
+
+3. Initialization: f[0]...
+
+4. Answer: f[n - 1]...
+
+
+- [LeetCode 132. Palindrome Partitioning II (HARD)](https://leetcode.com/problems/palindrome-partitioning-ii/)
+
+    ```java
+    class Solution {
+    
+        private boolean isPalindrome(String s, int start, int end){
+            for(int i = start, j = end; i < j; i++, j--){
+                if(s.charAt(i) != s.charAt(j))
+                    return false;
+            }
+            return true;
+        }
+        
+        private boolean[][] getIsPalindrome(String s){
+            // this Function is DP, too
+            // DP-Type: subArea
+            boolean [][] isPalindrome = new boolean[s.length()][s.length()];
+            
+            // single Alphabet is palindrom
+            for(int i = 0; i < s.length(); i++)
+                isPalindrome[i][i] = true;
+            // judge if every 2 Alphabets are palindrom
+            for(int i = 0; i < s.length() - 1; i++)
+                isPalindrome[i][i + 1] = (s.charAt(i) == s.charAt(i + 1));
+            
+            for(int length = 2; length < s.length(); length++){
+                // Length of subArea
+                // f[i][j] depends on f[i + 1][j - 1]
+                for(int start = 0; start + length < s.length(); start++){
+                    isPalindrome[start][start + length] = 
+                        isPalindrome[start + 1][start + length - 1] 
+                        && s.charAt(start) == s.charAt(start + length);
+                }
+            }
+            
+            return isPalindrome;
+        }
+        
+        public int minCut(String s) {
+            if(s == null || s.length() == 0)
+                return 0;
+            boolean[][] isPalindrome = getIsPalindrome(s);
+            
+            int[] f = new int[s.length() + 1];
+            
+            // Initialization
+            // worst Case: we seperate a String into single Alphabet.
+            // we have 5 Fingers and 4 Gaps among them
+            for(int i = 0; i <= s.length(); i++)
+                f[i] = i - 1;
+            // but why f[0] = -1?
+            // Case "abba"
+            
+            // DP below
+            for(int i = 1; i <= s.length(); i++){
+                for(int j = 0; j < i; j++){
+                    // if subString(j, i-1) is palindrom.
+                    // (j+1)_th to i_th subString.
+                    if(isPalindrome[j][i - 1])
+                        f[i] = Math.min(f[i], f[j] + 1);
+                    // we can also write it this way:
+                    // if(isPalindrome(s, j, i - 1))
+                    // by using 2D-Matrix we optimize the Complexity to O(1).
+                }
+            }
+            
+            return f[s.length()];
         }
     }
     ```
