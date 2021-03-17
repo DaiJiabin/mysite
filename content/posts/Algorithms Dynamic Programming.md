@@ -416,7 +416,64 @@ featuredImagePreview: "dynamicprogramming.png"
 - [LeetCode 72. Edit Distance (HARD)](https://leetcode.com/problems/edit-distance/)
 
     ```java
-    
+    public class Solution {
+        public int minDistance(String word1, String word2) {
+            int n = word1.length();
+            int m = word2.length();
+
+            int[][] dp = new int[n+1][m+1];
+            for (int i = 0; i < m + 1; i++) {
+                dp[0][i] = i; 
+            }
+
+            for (int i = 0; i < n + 1; i++) {
+                dp[i][0] = i;
+            }
+
+            for (int i = 1; i < n + 1; i++) {
+                for (int j = 1; j < m + 1; j++) {
+                    if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
+                        dp[i][j] = dp[i - 1][j - 1];
+                    }else{
+                        dp[i][j] = 1 + Math.min(dp[i - 1][j - 1], Math.min(dp[i - 1][j], dp[i][j - 1]));
+                    }
+                }
+            }
+            return dp[n][m];
+        }
+    }
+    ```
+
+- [LeetCode 97. Interleaving String](https://leetcode.com/problems/interleaving-string/)
+
+    ```java
+    class Solution {
+        public boolean isInterleave(String s1, String s2, String s3) {
+            if(s1.length() + s2.length() != s3.length())
+                return false;
+            boolean[][] interleaved = new boolean[s1.length() + 1][s2.length() + 1];
+            interleaved[0][0] = true;
+            
+            for(int i = 1; i <= s1.length(); i++){
+                if(s3.charAt(i - 1) == s1.charAt(i - 1) && interleaved[i - 1][0])
+                    interleaved[i][0] = true;
+            }
+            
+            for(int j = 1; j <= s2.length(); j++){
+                if(s3.charAt(j - 1) == s2.charAt(j - 1) && interleaved[0][j - 1])
+                    interleaved[0][j] = true;
+            }
+            
+            for(int i = 1; i <= s1.length(); i++){
+                for(int j = 1; j <= s2.length(); j++){
+                    if(((s3.charAt(i + j - 1) == s1.charAt(i - 1) && interleaved[i - 1][j])) || ((s3.charAt(i + j - 1)) == s2.charAt(j - 1) && interleaved[i][j - 1]))
+                        interleaved[i][j] = true;
+                }
+            }
+            
+            return interleaved[s1.length()][s2.length()];
+        }
+    }
     ```
 
 - [LeetCode 115. Distinct Subsequences (HARD)](https://leetcode.com/problems/distinct-subsequences/)
