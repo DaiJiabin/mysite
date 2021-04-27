@@ -6,6 +6,10 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 # Go To Public folder
 cd public
 
+eval $(ssh-agent -s)
+
+ssh-add ~/.ssh/windows
+
 # Add changes to git.
 git add .
 
