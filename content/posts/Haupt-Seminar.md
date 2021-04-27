@@ -51,3 +51,26 @@ featuredImagePreview: "TUD.png"
 
 - Features:
   - With the help of IT virtualization technology, virtualize the entire classes of network node functions into building blocks that may connect, or chain together, to create communication services.
+
+### Advices from Mr.Sommer
+
+- So, to start with: you managed to successfully give your kick-off presentation, so you're still in the seminar
+
+- Please also keep in mind that the kick-off presentation is supposed to present one paper in detail. This is totally different to the thesis talk at the end of the seminar, which will require you to give a high level overview of your topic
+
+- In your kick-off presentation you managed to present the contents of the paper, but I was somewhat confused that you stuck so closely to how the paper was laid out - it's almost like you summarized every 4 paragraphs of the paper into one sentence of your own, then presented that
+
+- Of course, that's enough to pass the first stage of the seminar, but it's very far removed from what you are supposed to do in the final presentation.
+
+- In the seminar talk (or the seminar thesis), if you find yourself explaining parts of a single paper, you probably went into too much detail. What is required of you in the seminar talk/thesis is to discuss commonalities of multiple papers (or differences of these papers)
+With this out of the way, let me briefly move on the the talk itself:
+
+- Your presentation was eloquent and easy to follow, the slide design was simple, but very efficient
+
+- You could easily make your (virtual) presentation more engaging if you could look at the audience (i.e., your lens) more often
+
+- Lastly, I was missing a footer on your slides - a common line on every slide (that shows 1) who's talking, 2) what they are talking about, and 3) which slide number is currently presented) helps follow your presentation and (most importantly) makes it easier to ask questions
+
+- that is, the audience can raise a question like "could you please explain the picture on slide 5" as opposed to "can you please go back a slide; no, forward; one more; one more; okay, maybe it was the other way"... which wastes a lot of time during Q&A
+
+- I can also recommend asking Dr. Hensel for feedback - he took very good notes as well
