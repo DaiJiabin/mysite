@@ -4,7 +4,7 @@ date: 2021-04-26T16:38:33+02:00
 draft: false
 tags: [Kurse]
 categories: [TUD]
-featuredImagePreview: "TUD.png"
+featuredImagePreview: "/TUD.png"
 ---
 
 ## Some Definitions
