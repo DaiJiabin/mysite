@@ -74,6 +74,3 @@ With this out of the way, let me briefly move on the the talk itself:
 - that is, the audience can raise a question like "could you please explain the picture on slide 5" as opposed to "can you please go back a slide; no, forward; one more; one more; okay, maybe it was the other way"... which wastes a lot of time during Q&A
 
 - I can also recommend asking Dr. Hensel for feedback - he took very good notes as well
-
-- change specific parts in structure
-- change the whole box?
