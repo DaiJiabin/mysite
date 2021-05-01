@@ -156,3 +156,188 @@ featuredImagePreview: "/spring.jpg"
     ![IOC](/IOC.png)
 
 ## 3. Hello Spring
+
+## 4. How does IoC create objects
+
+1. Use methods without Parameters to create objects __by default__
+
+2. 3 ways to create objects __with parameters__:
+
+   - With the index of the initialization method
+
+    ```xml
+    <bean id="user" class="com.kuang.pojo.User">
+      <constructor-arg index="0" value="Learn Spring"/>
+    </bean>
+    ```
+
+   - With the type of parameters of initialization method ( not recommanded )
+
+    ```xml
+    <bean id="user" class="com.kuang.pojo.User">
+      <constructor-arg type="java.lang.String" value="Learn Spring"/>
+    </bean>
+    ```
+
+   - __With the name of parameters of initializtion method ( recommand )__
+
+    ```xml
+    <bean id="user" class="com.kuang.pojo.User">
+      <constructor-arg name="name" value="Learn Spring"/>
+    </bean>
+    ```
+
+3. __When loading cofigure file (xxx.xml), the objects in the container are initialized__
+
+## 5. Configuration of Spring
+
+### 5.1 alias
+
+- `<alias name="user" alias="user2"/>` - single alias
+
+- We can through the alias get the object.
+
+### 5.2 configure bean
+
+|          `id`           |     `class`     | `name` |
+| :---------------------: | :-------------: | :----: |
+| identifier, object-name | package + class | alias  |
+
+- `<bean id="user" class="com.kuang.pojo.User" name="user3, user3, ...">`
+
+- multi-alias in `<bean>`, can be seperated with `space`, `,`, `;`
+
+### 5.3 import
+
+- Used for teamwork, import and merge multi-configure files
+
+- `<import resource="other_beans.xml"/>`
+
+## 6. Dependency Injection (DI)
+
+1. Constructor injection, see #4
+
+2. `Set`
+
+   - What is `DI` - __Set injection__
+
+      - `Dependency`: The creation of the objects in bean depend on container
+
+      - All attributes of the objects in bean are injected by container
+   - An example
+  
+      ```xml
+      <!--beans.xml-->
+      <?xml version="1.0" encoding="UTF-8"?>
+      <beans xmlns="http://www.springframework.org/schema/beans"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        <bean id="student" class="com.kuang.pojo.Student">
+            <property name="name" value="zhangsan"/>
+        </bean>
+      </beans>
+      ```
+
+      ```java
+      // Student.java
+      public class Student {
+        private String name;
+        private Address address;
+        private String[] books;
+        private List<String> hobbys;
+        private Map<String, String> card;
+        private Set<String> games;
+        private Properties info;
+        private String wife;
+      }
+      ```
+
+      ```java
+      // Address.java
+      public class Address {
+        private String address;
+
+        public void setAddr(String address) {
+            this.address = address;
+        }
+
+        @Override
+        public String toString() {
+            return "Address{" +
+                    "address='" + address + '\'' +
+                    '}';
+        }
+
+        public String getAddr() {
+            return address;
+        }
+      }
+      ```
+
+      ```java
+      // Test Class
+      public class MyTest {
+        public static void main(String[] args) {
+            ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+            Student student = (Student) context.getBean("student");
+            System.out.println(student.toString());
+        }
+      }
+      ```
+
+      ```xml
+      <!-- complete -->
+      <bean id="address" class="com.kuang.pojo.Address">
+          <property name="addr" value="Xian"/>
+      </bean>
+
+      <bean id="student" class="com.kuang.pojo.Student">
+          <property name="name" value="zhangsan"/>
+          <!-- reference here -->
+          <property name="address" ref="address"/>
+          <!-- Array -->
+          <property name="books">
+              <array>
+                  <value>《黑暗森林》</value>
+                  <value>《死神永生》</value>
+                  <value>《人生海海》</value>
+              </array>
+          </property>
+          <!-- List -->
+          <property name="hobbys">
+              <list>
+                  <value>sing</value>
+                  <value>code</value>
+                  <value>music</value>
+              </list>
+          </property>
+          <!-- Map -->
+          <property name="card">
+              <map>
+                  <entry key="tianwang" value="dihu"/>
+                  <entry key="ID" value="1234567890"/>
+              </map>
+          </property>
+          <!-- Set -->
+          <property name="games">
+              <set>
+                  <value>mario</value>
+                  <value>lol</value>
+                  <value>CS go</value>
+              </set>
+          </property>
+
+          <property name="wife">
+              <null/>
+          </property>
+          <!-- Properties -->
+          <property name="info">
+              <props>
+                  <prop key="姓名">noone</prop>
+                  <prop key="学号">10294658</prop>
+              </props>
+          </property>
+      </bean>
+      ```
+
+   - Reference, click [here](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-dependencies)
