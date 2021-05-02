@@ -1,5 +1,5 @@
 ---
-title: "ASiSE 03. ADED"
+title: "ASiSE"
 date: 2021-05-02T09:13:09+02:00
 draft: false
 tags: [Kurse]
@@ -7,7 +7,9 @@ categories: [TUD]
 featuredImagePreview: "/TUD.png"
 ---
 
-## What is ADED
+## 03. ADED
+
+### What is ADED
 
 - __A__ nalyse
   - _role: existing technologies, backgrounds, problems_
@@ -120,3 +122,85 @@ featuredImagePreview: "/TUD.png"
   - Generate solution ideas: "how to achieve"
   
   - Structure the available knowledge and literature: "what do we know"
+
+## 04. information gathering
+
+### 4.1 Data, information, knowledge aquisition in science
+
+#### What is DIKW model
+
+- __D__ ata
+
+- __I__ nformation
+
+- __K__ nowledge
+
+- __W__ isdom
+
+- Above are what __science about__
+
+- <u>Natural</u> science: _find data and interprete them into knowledge_
+
+- <u>Technical</u> science: _use knowledge to solve problems,_ __but need to be wise__(i.e., nuclear energy ).
+
+#### The knowledge aquisition model from spinner
+
+- Knowledge is __context-dependent__ and comes from __information by interpretation__
+
+- Answering questions creates knowledge.
+
+- __Knowledge is what remains after answering questions__
+
+![knowledge-aquisi](/knowledge-aquisi.png)
+
+#### Typical questions for interpretation
+
+- About sender
+
+- About context
+
+- About receiver
+
+### 4.2 __Reading process__ with RIK
+
+#### What is RIK
+
+- __R__ elevance check
+
+- __I__ nformation
+
+- __K__ nowledge aquisition
+
+- Stopping all the way and not wasting time
+
+- Structured along the DIKW pyramid and the spinner IK aquisition process
+
+#### 4.2.1 Relevance check
+
+##### SWOT analysis
+
+- For _strategic decisions of thesis and research_
+
+![SWOT](/SWOT.png)
+
+- Try to combine with "6-honest-men"
+
+##### Killer App analysis 
+
+- Investigates for _a product or a research paper_, whether it's needed, it's comprehensive
+
+![killer-app](/killer-app.png)
+
+- __Attractive-Product__ $=$ Need $\times$ Comprehensibility
+
+#### 4.2.2 Information aquisition
+
+#### 4.2.3 Knowledge aquisition
+
+### 4.3 Other reading methods
+
+### 4.4 Methods to recite for knowledge acquisition
+
+### 4.5 Information gathering
+
+### 4.6 Writing literature analysis papers

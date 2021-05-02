@@ -341,3 +341,45 @@ featuredImagePreview: "/spring.jpg"
       ```
 
    - Reference, click [here](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-dependencies)
+
+## `Autowire` of bean
+
+- A method from bean, that satisfies the dependencies of bean
+
+- Search in context, and load the properties for bean automatically
+
+### 3 ways to load
+
+1. xml
+
+2. java
+
+3. __hidden `autowire`__
+
+   - `autowire="byName"`: Ensure that `beanid` is unique, and same as the `set` methods of the injected property.
+
+   - `sutowire="byType"`: Ensure that the `class` of `bean` is unique, and same as the `class` of the injected property.
+
+#### Example
+
+```java
+public class Person{
+  private Cat cat;
+  private Dog dog;
+  private String name;
+  //etters and setters...
+  // Constructors with/without partameters...
+}
+```
+
+```xml
+<bean id="dog" class="com.kuang.pojo.Dog">
+<bean id="cat" class="com.kuang.pojo.Cat">
+<bean id="person" class="com.kuang.pojo.Person" autowire="byName">
+```
+
+```xml
+<bean class="com.kuang.pojo.Dog">
+<bean class="com.kuang.pojo.Cat">
+<bean id="person" class="com.kuang.pojo.Person" autowire="byType">
+```
