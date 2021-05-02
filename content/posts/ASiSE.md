@@ -10,17 +10,17 @@ featuredImagePreview: "/TUD.png"
 ## What is ADED
 
 - __A__ nalyse
-  - _roll: existing technologies, backgrounds, problems_
+  - _rol3: existing technologies, backgrounds, problems_
 - __D__ esign
-  - _roll: new technologies_
+  - _rol3: new technologies_
 - __E__ valuate
   - necessary for technical papers
   - a technical thesis must be technical( achieve and demonstrate a technical result )
   - success factors have to be analyzed to know whether a result is really needed
-  - _roll: show why the new solution is superior; use_ __success cretiria__
+  - _rol3: show why the new solution is superior; use_ __success cretiria__
 - __D__ iffuse
   - by writing: a design pattern, a report by demonstrating a software prototype
-  - _roll: popularize the research results; demonstration for creating vision_
+  - _rol3: popularize the research results; demonstration for creating vision_
 
 ### Tasks for each
 
@@ -75,16 +75,48 @@ featuredImagePreview: "/TUD.png"
 
 #### Concept Maps
 
-- Shows several concepts and their relations
+- Shows several concepts and their relations. Usually, one starts with several central concepts in the middle of a page and collects associasions. See below:
+
+    ![concept-maps](/concept-maps.png)
 
 - __Concept Maps is a method for analysis, idea generation and structuring__
 
 - __A concept map is a model of problems, knowledges, goals, solution ideas__
 
+- Enriches semantic nets with pictures and figures
+
+#### Clustering
+
+- Helps to develop hierarchic, logical structures
+
+- A __node-labeled concept map__ with one root in the middle of the page
+
+- Called a mindmap if the cluster is a tree
+
+#### Mindmaps
+
+- A node- or edge-labeled association tree
+
 #### Line/Row Hierarchy (Q-A-Hierarchy)
+
+- From a mindmap or structure tree, a row hierarchy can be formed with main thesis and arguments
+
+- Phrase the main point as a question, and let the arguments answer the question
+
+    ![QA-Hierachy](/QA-Hierachy.png)
 
 ### Problem analysis with questions
 
 #### The honset serving men, 7 basic questions
 
-![7-w](/7-w.png)
+- who; what; how; where; when; why; for what/to which end
+
+    ![7-w](/7-w.png)
+
+- Integrate into idea generation techniques:
+
+  - Analyze problems: "why" and "which end"
+  
+  - Generate solution ideas: "how to achieve"
+  
+  - Structure the available knowledge and literature: "what do we know"
