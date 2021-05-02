@@ -24,7 +24,7 @@ featuredImagePreview: "/TUD.png"
 
 ### Tasks for each
 
-| Analyse | Design | Evaluate | Diffuse |
+| Analyse | Design | Evaluate(Role?) | Diffuse |
 | :-----: | :----: | :------: | :-----: |
 |problem analysis;<br>automation or optimization hypothesis;<br>success factor analysis|requirements of the solution;<br>solution design;<br>design alternatives, assessment and selection;<br>architecture development|testing the research hypothesis by experiments;<br>benchmarking;<br>interpretation of the experiments;<br>documenting the limits of the technology|structuring;<br>drafting;<br>revision;<br>diffuse|
 
