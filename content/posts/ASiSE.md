@@ -10,17 +10,17 @@ featuredImagePreview: "/TUD.png"
 ## What is ADED
 
 - __A__ nalyse
-  - _rol3: existing technologies, backgrounds, problems_
+  - _role: existing technologies, backgrounds, problems_
 - __D__ esign
-  - _rol3: new technologies_
+  - _role: new technologies_
 - __E__ valuate
   - necessary for technical papers
   - a technical thesis must be technical( achieve and demonstrate a technical result )
   - success factors have to be analyzed to know whether a result is really needed
-  - _rol3: show why the new solution is superior; use_ __success cretiria__
+  - _role: show why the new solution is superior; use_ __success cretiria__
 - __D__ iffuse
   - by writing: a design pattern, a report by demonstrating a software prototype
-  - _rol3: popularize the research results; demonstration for creating vision_
+  - _role: popularize the research results; demonstration for creating vision_
 
 ### Tasks for each
 
