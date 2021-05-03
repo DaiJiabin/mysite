@@ -8,7 +8,7 @@ featuredImagePreview: "/japanese.jpg"
 
 ## にほんご， ダイ　ヂアビン
 
-### 1. こんいちは
+### 1. こんにちは
 
 + <u>あなたは　どうしますか。</u>
 
