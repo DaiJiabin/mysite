@@ -1,7 +1,7 @@
 ---
 title: "Japanese"
 date: 2021-05-03T09:09:13+02:00
-tags: [Tapanese]
+tags: [Japanese]
 categories: [Language]
 featuredImagePreview: "/japanese.jpg"
 ---

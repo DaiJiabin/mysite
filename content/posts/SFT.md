@@ -40,9 +40,9 @@ featuredImagePreview: "/TUD.png"
 
 #### 1. Generator
 
-##### 1.1 Tasks
+##### 1.1 Objective
 
-- Testing inputs to drive SUT
+- Testing inputs to drive SUT(System Under Test)
 - Different approaches on how to generate the input
 
 ##### 1.2 Types
@@ -90,11 +90,68 @@ featuredImagePreview: "/TUD.png"
 
 #### 2. Delivery machanism
 
-- Presents the output of the fuzz generator as input to the SUT
-- i.e., file, mouse, etc.
+##### 2.1 Objective
+
+- Taking test case and presenting it to the SUTile / Presents the output of the fuzz generator as input to the SUT
+
+##### 2.2 Mechanisms
+
+- Environment Variables
+- Invocation Parameters(e.g. command line and API parameters)
+- Network Messages
+- Operating System Events(mouse/keyboard events)
 
 #### 3. Monitoring system
 
-- Observing the SUT and detection of errors that arise as input is presented
+##### 3.1 Objective
 
-###
+- Error detection system, __often combined with fuzz generator to know what input triggered which error condition__
+
+##### 3.2 Types
+
+- Local monitoring systems
+
+- Remote monitoring systems
+
+#### Fuzzing workflow
+
+1. Identify the target
+
+2. Write/prepare the fuzzing driver(delivery)
+
+3. Set up data generator
+
+    - grammar-based: write grammar
+
+    - mutation-based: prepare seed inputs
+
+4. Set up monitoring
+
+5. After fuzzing, analyze results and fix bugs
+
+#### Fuzzer types & crash detection
+
+##### Fuzzer types
+
+- Blackbox fuzzer - system runs or crashed
+- Whitebox fuzzer - access to source code to debug
+- Greybox fuzzer - some binary instrumentation
+
+##### Crash dectection
+
+#### Summary
+
+##### Benefits
+
+- Simple way to test application in unexpected ways
+
+- Cheaper than manual testing
+
+##### Drawbacks
+
+- Never exhaustive
+
+- Long testing time
+
+### TLS Attacker - fuzzing application
+
