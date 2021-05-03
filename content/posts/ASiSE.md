@@ -137,6 +137,8 @@ featuredImagePreview: "/TUD.png"
 
 - __W__ isdom
 
+![DIKW](/DIKW.png)
+
 - Above are what __science about__
 
 - <u>Natural</u> science: _find data and interprete them into knowledge_
@@ -171,13 +173,26 @@ featuredImagePreview: "/TUD.png"
 
 - __K__ nowledge aquisition
 
+![RIK](/RIK.png)
+
 - Stopping all the way and not wasting time
 
 - Structured along the DIKW pyramid and the spinner IK aquisition process
 
 #### 4.2.1 Relevance check
 
+##### Classify papers(Fong)
+
+- Relevant research
+- High innovation depth
+- Narrow result
+- Disruptive result
+- Epsilon-result
+- "low hanging fruit"-result
+
 ##### SWOT analysis
+
+- 4-dimensional attribute analysis for the _development of a strategy for a project_
 
 - For _strategic decisions of thesis and research_
 
@@ -185,7 +200,7 @@ featuredImagePreview: "/TUD.png"
 
 - Try to combine with "6-honest-men"
 
-##### Killer App analysis 
+##### Killer App analysis
 
 - Investigates for _a product or a research paper_, whether it's needed, it's comprehensive
 
@@ -195,12 +210,83 @@ featuredImagePreview: "/TUD.png"
 
 #### 4.2.2 Information aquisition
 
+##### Questions
+
+- Overview about preexisting knowledge
+- Formulate questions before reading
+
+##### Reading
+
+- Work systematically through the text
+- Mark up central terms and paragraphs
+- Formulate questions while reading
+- Record ideas
+- Structure ideas by a semantic net or concept map
+
+##### Grouping in semantic nets and concept maps
+
+- Operations, that create knowledge from information:
+
+  Grouping, hieraichizing, re-drawing, dualizing.
+
+##### House concept map
+
 #### 4.2.3 Knowledge aquisition
+
+##### Recite
+
+- Embed new information into old knowledge
+- Write summary: pose and answer questions
+- Talk
+- Repeat information acquisition in details, per section
+- Relation to own previous work
 
 ### 4.3 Other reading methods
 
 ### 4.4 Methods to recite for knowledge acquisition
 
+#### How to recite and summarize
+
+##### Recite
+
+- Personalize the information
+- Learn actively by reformulation
+- Abstract from unneccessary details
+- Easy way to find focused information again
+
+##### Summary
+
+- Underlining
+- Margin notes
+- Excerpting
+- Mindmapping
+- Structure Trees
+- Cracking Sentences
+
 ### 4.5 Information gathering
 
 ### 4.6 Writing literature analysis papers
+
+#### Use cases
+
+- Standalone for overview journals.
+
+- Background chapter for thesis
+
+#### 1-3-1 structure of literature analysis paragraphs
+
+- Thesis statement
+  
+  - Requirements background
+  
+  - Taxonomy
+  
+  - Research landscape
+
+- Message sentence
+
+![Literature-Analy](/Literature-Analy.png)
+
+#### Selektons of literature analysis paper
+
+![skeleton](/skeleton.png)
