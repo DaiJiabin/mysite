@@ -54,6 +54,8 @@ featuredImagePreview: "/TUD.png"
 
 ### Advices from Mr.Sommer
 
+#### 22.05.2021
+
 - So, to start with: you managed to successfully give your kick-off presentation, so you're still in the seminar
 
 - Please also keep in mind that the kick-off presentation is supposed to present one paper in detail. This is totally different to the thesis talk at the end of the seminar, which will require you to give a high level overview of your topic
@@ -75,7 +77,7 @@ With this out of the way, let me briefly move on the the talk itself:
 
 - I can also recommend asking Dr. Hensel for feedback - he took very good notes as well
 
----
+#### 13.05.2021
 
 - I am happy to see that you've made a very important observation: different papers define the same term differently. This is why it is so important to introduce terms in your thesis before using them ("Foobar Computing, which is commonly used to mean XYZ, has gained ...")
 
@@ -83,10 +85,10 @@ With this out of the way, let me briefly move on the the talk itself:
 
   For example, only one paper treats the two terms as interchangeable, so I would argue that it would not be following the consensus of the literature to treat the two terms as interchangeable in your seminar thesis.
 
-- Ok😄 I’ll try to make clear distinctions in thesis.🙌And one more question, since Cisco is the “creator” of fog computing, and now on its website Cisco regard FC as a subset of EC(the last picture), does that mean that the second figure is better compared to the first figure?
+- _Ok😄 I’ll try to make clear distinctions in thesis.🙌And one more question, since Cisco is the “creator” of fog computing, and now on its website Cisco regard FC as a subset of EC(the last picture), does that mean that the second figure is better compared to the first figure?_
 
 - I can only answer this question in a very generic fashion: by default, I would treat exactly those authors as the "creators" of a concept/methodology that first described it in a scientific (peer reviewed) paper. Very often (but not always), this is also the paper that is cited most often for further information on a concept (e.g., "fog computing [1] is being used to XYZ").
 
   On a related note, it is also (unfortunately) very common to simply use the exact same method X that somebody else invented, but to give it a new term Y - just to be able to claim that "I invented Y"; this is particularly common if Y is claimed as an invention by somebody who is in the market of selling Y.
 
-- Roger that🙌 I'll try to figure this out. Thanks again for your time(especially today's holiday)🍻
+- _Roger that🙌 I'll try to figure this out. Thanks again for your time(especially today's holiday)🍻_
