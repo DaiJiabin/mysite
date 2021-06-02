@@ -117,3 +117,31 @@ featuredImagePreview: "/japanese.jpg"
 + わたしわ　がくせいです。
 
 ---
+
+### 6.　どこで　たべますか　-> Where do you want to eat?
+
+#### Grammar
+
+1. すきな　XXX __わ__　ABCです -> My favorite XXX(e.g., food, りょうり) is ABC
+2. けらいな　XXX __わ__　ABCです -> 
+3. _Place_ __で__　たべます -> We eat in some place
+4. _Food_ __を__　たべます -> We eat something
+
+#### Examples
+
+1. Grammar 1.
+   - すきな　りょうりわ　なんですか ? 
+    (すきわ　りょうりわ)　ハンバーガーです。
+    
+- _きょうわ_　どこで　たべますか -> Where do you want to eat _today_?
+
+- __すきな__　りょうりわ　__なんですか__ -> What's your favorite food (Speise)?
+  カレー __が__ _いくばん_ すきです -> My __Favorite__ food is Curry.
+  - Grammar:
+    
+    - 
+
+- どんな　みせですか　-> How's　the restaurant?
+  - おいしい __です__ < - > まずい __です__
+  - はやい __です__　< - > おそい __です__
+  - たかい　__です__　< - > やすい __です__
