@@ -133,7 +133,7 @@ featuredImagePreview: "/japanese.jpg"
    - すきな　りょうりわ　なんですか ? 
     (すきわ　りょうりわ)　ハンバーガーです。
 
-- _きょうわ_　どこで　たべますか -> Where do you want to eat _today_?
+- __きょうわ__　どこで　たべますか -> Where do you want to eat __today__?
 
 - __すきな__　りょうりわ　__なんですか__ -> What's your favorite food (Speise)?
   カレー __が__ _いくばん_ すきです -> My __Favorite__ food is Curry.
