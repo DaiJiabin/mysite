@@ -118,21 +118,21 @@ featuredImagePreview: "/japanese.jpg"
 
 ---
 
-### 6.　どこで　たべますか　-> Where do you want to eat?
+## 6.　どこで　たべますか　-> Where do you want to eat?
 
-#### Grammar
+### Grammar
 
 1. すきな　XXX __わ__　ABCです -> My favorite XXX(e.g., food, りょうり) is ABC
 2. けらいな　XXX __わ__　ABCです -> 
 3. _Place_ __で__　たべます -> We eat in some place
 4. _Food_ __を__　たべます -> We eat something
 
-#### Examples
+### Examples
 
 1. Grammar 1.
    - すきな　りょうりわ　なんですか ? 
     (すきわ　りょうりわ)　ハンバーガーです。
-    
+
 - _きょうわ_　どこで　たべますか -> Where do you want to eat _today_?
 
 - __すきな__　りょうりわ　__なんですか__ -> What's your favorite food (Speise)?
@@ -145,3 +145,30 @@ featuredImagePreview: "/japanese.jpg"
   - おいしい __です__ < - > まずい __です__
   - はやい __です__　< - > おそい __です__
   - たかい　__です__　< - > やすい __です__
+
+## 7. へやが　みっつ　あります
+
+### Grammar
+
+- _Sth_ __が__　__あり__ ます。　< - > _Sth_ __は__　__あり__ ません。
+  
+  There's Something / Not, <u>for Sth cannot move, like ベッド</u>
+
+- _Sth_ __が__ __い__ ます。　< - > _Sth_ __は__ __い__ ません
+
+  There's Something / Not, <u>for Sth living, like ねこ</u>
+
+- _Place_ __に(は)__　__なにが__ ありますか。　
+  
+  __What(Sth)__ does the _Place_ have?
+
+- _Sth_ __が__　_Number_　あります。
+    - Here, _Number_ are: __ひとつ，ふたつ，みっつ，よっつ，いつつ，むっつ__
+    - Numbers above are used to describe things.
+    - Comparing to how man lives: __ひとり，ふたり，３にん，４にん...__
+
+- _Sth_ が　__いくつ__　ありますか。
+  
+  __How many__ _Sth_ exist there?
+
+### Examples
