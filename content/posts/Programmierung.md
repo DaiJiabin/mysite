@@ -196,3 +196,100 @@ draft: false
   collapse Nil = []
   collapse (Node n t1 t2) = collapse t1 ++ [n] + collapse t2
 ```
+
+### 05. Strukturellen Induktion
+
+- i.e.
+
+  ```haskell
+    sumList :: [Int] -> Int
+    sumList [] = 0
+    sumList (x : xs) = x + sumList xs
+  ```
+
+  ```haskell
+    double :: [Int] -> [Int]
+    double [] = []
+    double (x : xs) = 2 * x : double xs
+  ```
+
+  Then please prove: sumList (double xs) = 2 * sumList xs
+
+  - Prove:
+
+    1. __Induktionsanfang: xs = []__
+
+        sumList (double xs)
+
+        = sumList (double [])
+
+        = sumList []
+
+        = 0
+
+        = 2 * 0
+
+        = 2 * (sumList [])
+
+        = 2 * (sumList xs)
+
+    2. __Induktionsvoraussetzung__
+
+        Sei xs' :: [Int]. Wir nehmen an, dass $P(xs')$ gilt.
+
+    3. __Induktionsschritt__
+
+        For xs = x : xs' with x :: Int
+
+        sumList (double xs)
+
+        = sumList (double(x : xs'))
+
+        = sumList ((2 * x) : double xs')
+
+        = (2 * x) + sumList (double xs')
+
+        = (2 * x) + (2 * sunList xs')
+
+        = 2 * (x + sumList xs')
+
+        = 2 * sumList (x : xs')
+
+        = 2 * sumList xs
+  
+- 25 min, the example of tree is unclear.
+
+- i.e.2
+
+  ```haskell
+    map :: (a -> a) -> [a] -> [a]
+    map f [] = []
+    map f (x : xs) = f x : map f xs
+    datat Tree = Nil | Node a (Tree a) (Tree b)
+  ```
+
+  ```haskell
+    mapTree :: (a -> a) -> Tree a -> Tree a
+    mapTree f Nil = Nil
+    mapTree f (Node x t1 t2) = Node (f x) (mapTree f t1) (mapTree f t2)
+  ```
+
+  ```haskell
+    collapse :: Tree a -> [a]
+    collapse Nil -> []
+    collapse (Node x t1 t2) = collapse t1 ++ [x] ++ collapse t2
+  ```
+
+- Summary: Sei P:T -> {0, 1} eine Eigenschaft des algebraischen Datentyps T. Wenn
+
+  - (Induktionsanfang) für jeden Konstruktor D von T, für den kein Argumenttyp gleich T ist, dass Prädikat P gilt
+
+  - (Induktionsschritt) folgende Implikation für jeden k-stelligne Konstruktor C mit Ergebnistzp T mit k >= 1 und alle Werte t1, ... tk gilt: wenn P für jedes t1 vom Tyü T gilt, dann gilt P für (C t1 ... tk).
+
+  Dann gilt P für jeden Wert von T
+
+
+
+
+
+
