@@ -148,27 +148,96 @@ featuredImagePreview: "/japanese.jpg"
 
 ## 7. へやが　みっつ　あります
 
+### Vocabular
+
+#### Norminative
+
+- いえ　House
+  
+  - アパート Apartment
+  
+  - マンション Apartment building
+
+  - いっこだて Single-famliy home
+  
+  - へや　Room
+
+- じあゆ
+  
+  - テレビ TV
+  
+  - エアコン Airconditioner
+  
+  - ベッド Bed
+  
+  - いす Chairs
+  
+  - テーブル Table
+  
+  - ソファ Sofa
+
+- Others
+
+  - ともだち Friend
+
+  - かぞく Family
+
+#### Adjective
+
+- せまい narrow <-> ひろい large
+- あかるい sunny <-> くらい shadowy
+- あたらしい new <-> ふるい old
+- おおきい big <-> ちいさい small
+
+
 ### Grammar
 
-- _Sth_ __が__　__あり__ ます。　< - > _Sth_ __は__　__あり__ ません。
+1. _Sth_ __が__　__あり__ ます。　<-> _Sth_ __は__　__あり__ ません。
   
-  There's Something / Not, <u>for Sth cannot move, like ベッド</u>
+    There's Something / Not, <u>for Sth cannot move, like ベッド</u>
 
-- _Sth_ __が__ __い__ ます。　< - > _Sth_ __は__ __い__ ません
+2. _Sth_ __が__ __い__ ます。　<-> _Sth_ __は__ __い__ ません
 
-  There's Something / Not, <u>for Sth living, like ねこ</u>
+    There's Something / Not, <u>for Sth living, like ねこ</u>
 
-- _Place_ __に(は)__　__なにが__ ありますか。　
+3. _Place_ __に(は)__　__なにが__ ありますか。
+
+    __What(Sth)__ does the _Place_ have?
+
+4. _Place_ __に(は)__　__だれが__　ありますか。
+
+    __Who__ is living in the _Place_?
+
+5. __だれと__　すんでいますか。
+
+    __With whom__ do you live?
+
+6. _Sth_ が　__いくつ__　ありますか。
   
-  __What(Sth)__ does the _Place_ have?
+    __How many__ _Sth_ exist there?
 
 - _Sth_ __が__　_Number_　あります。
-    - Here, _Number_ are: __ひとつ，ふたつ，みっつ，よっつ，いつつ，むっつ__
-    - Numbers above are used to describe things.
-    - Comparing to how man lives: __ひとり，ふたり，３にん，４にん...__
 
-- _Sth_ が　__いくつ__　ありますか。
-  
-  __How many__ _Sth_ exist there?
+  - Here, _Number_ are: __ひとつ，ふたつ，みっつ，よっつ，いつつ，むっつ__
+
+  - Numbers above are used to describe things.
+
+  - Comparing to how man lives: __ひとり，ふたり，３にん，４にん...__
 
 ### Examples
+
+- わたしは　とうきょう__に__　すんでいます。
+  
+  わたしの　いえわ　アパート　です。
+  
+  ひとり __で__ <u>/ともだち __と__</u>　すんでいます。
+  
+  わたしの　いえわ　せまいです。
+
+- いえに　へやが　いくつ　ありますか。
+  
+  へやに　なにが　あちますか。
+
+  だれと　すんでいますか。
+
+  いえに　ペットが　ありますか。
