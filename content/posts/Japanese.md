@@ -282,6 +282,6 @@ featuredImagePreview: "/japanese.jpg"
 
     あさ，ひる，よる
 
-- いま　なんじですか。
+3. いま　なんじですか。
 
     e.g. にほん __は__ いま　あさ　1時(じ)ですね。
