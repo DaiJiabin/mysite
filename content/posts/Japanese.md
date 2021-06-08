@@ -185,44 +185,51 @@ featuredImagePreview: "/japanese.jpg"
 #### Adjective
 
 - せまい narrow <-> ひろい large
-- あかるい sunny <-> くらい shadowy
+- あかるい bright <-> くらい dark
 - あたらしい new <-> ふるい old
 - おおきい big <-> ちいさい small
 
-
 ### Grammar
 
-1. _Sth_ __が__　__あり__ ます。　<-> _Sth_ __は__　__あり__ ません。
-  
-    There's Something / Not, <u>for Sth cannot move, like ベッド</u>
-
-2. _Sth_ __が__ __い__ ます。　<-> _Sth_ __は__ __い__ ません
-
-    There's Something / Not, <u>for Sth living, like ねこ</u>
-
-3. _Place_ __に(は)__　__なにが__ ありますか。
+1. _Place_ __に(は)__　__なにが__ ありますか。
 
     __What(Sth)__ does the _Place_ have?
 
-4. _Place_ __に(は)__　__だれが__　ありますか。
+    e.g. いえ __に__　ペット __が__　いますか。
 
-    __Who__ is living in the _Place_?
+    Is there a pet in your House?
 
-5. __だれと__　すんでいますか。
+    はい，ねこが　います。
 
-    __With whom__ do you live?
+2. _Place_ __に(は)__　__だれが__　ありますか。
 
-6. _Sth_ が　__いくつ__　ありますか。
+    __With whom__ do you live in the _Place_?
+
+    e.g. _だれ_　__と__　すんでいますか。
+
+    かぞく __と__　すんでいます。
+
+    ひとり __で__　すんでいます。
+
+3. _Sth_ が　__いくつ__　ありますか。
   
     __How many__ _Sth_ exist there?
 
-- _Sth_ __が__　_Number_　あります。
+4. _Sth_ __が__　_Number_　あります。
 
   - Here, _Number_ are: __ひとつ，ふたつ，みっつ，よっつ，いつつ，むっつ__
 
   - Numbers above are used to describe things.
 
   - Comparing to how man lives: __ひとり，ふたり，３にん，４にん...__
+
+6. _Sth_ __が__　__あり__ ます。　<-> _Sth_ __は__　__あり__ ません。
+  
+    There's Something / Not, <u>for Sth cannot move, like ベッド</u>
+
+7. _Sth_ __が__ __い__ ます。　<-> _Sth_ __は__ __い__ ません
+
+    There's Something / Not, <u>for Sth living, like ねこ</u>
 
 ### Examples
 
@@ -241,3 +248,40 @@ featuredImagePreview: "/japanese.jpg"
   だれと　すんでいますか。
 
   いえに　ペットが　ありますか。
+
+## 9. なんじに　おきますか
+
+### Woerte
+
+- おきます Aufstehen
+- あさごはん __を__　たべます Fruehstueck essen
+- しんぶん __を　よみます__ Zeitung lesen
+- かいしゃ/がっこう/だいがく　__に　いきます__ Firma/Schule/TU gehen
+- しごと　__を　します__　Arbeiten
+- ひるごはん　を　たべます Mittag essen
+- うち　__に　かえります__ zu Hause gehen
+- ばんごはん　を　たべます Abend essen
+- かじ　__を　します__ Hausarbeit machen
+- おんがく　__を　ききます__ Musik hoeren
+- うんどう　__を　します__ Sport machen
+- さんぽ　__を　します__ Sparziengang machen
+- にっき/ブログを　__かきます__ Tagesbuch/Blog schreiben
+- おふろ　__に　はいります__/シャワー　__を　あびます__ Duschen
+- ねます Schlaf gehen
+- いま jetzt
+
+### Grammatik
+
+#### Zeit Fenster in einem Tag
+
+1. Vormittag, Nachmittag
+
+    ごでん，ごご
+
+2. Morgen, Mittag, Abend
+
+    あさ，ひる，よる
+
+- いま　なんじですか。
+
+    e.g. にほん __は__ いま　あさ　1時(じ)ですね。
