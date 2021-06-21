@@ -292,12 +292,12 @@ featuredImagePreview: "/japanese.jpg"
 
 | スポーツ を します Sport treiben | えいが を みます Film ansehen | おんげく を ききます Musik hoeren | どくしょ(ほん) を よみます Buecher lesen |
 | :------------------------------: | :---------------------------: | :-------------------------------: | :--------------------------------------: |
-|            じゅうどう            |      コメディー Komidie       |        クラシック Klassik         |                しょうせと                |
-|           テニス Tenis           |       れんあい Romance        |          ピアノ Klavier           |                 ぶんがく                 |
-|        やきゅう Baseball         |       アクション Aktion       |            ジャズ Jazz            |                 れんあい                 |
+|         じゅうどう Judo          |      コメディー Komidie       |        クラシック Klassik         |           しょうせつ Geshichte           |
+|           テニス Tenis           |       れんあい Romance        |          ピアノ Klavier           |           ぶんがく  Literatur            |
+|        やきゅう Baseball         |       アクション Aktion       |            ジャズ Jazz            |             れんあい Romance             |
 |        サッカー Fussball         |         アニメ Anime          |          ギター Gittare           |           ミステリー Mysterium           |
-|                                  |         ホラー Horry          |              ロック               |               マンガ Komik               |
-|                                  |                               |               うた                |           ファンタジー Fiktion           |
+|                                  |         ホラー Horry          |            ロック Rock            |               マンガ Komik               |
+|                                  |                               |            うた Gelied            |           ファンタジー Fiktion           |
 |                                  |                               |           ポップス Pop            |            ざっし Zeitschrift            |
 
 ### Wo treibst du Sport?
