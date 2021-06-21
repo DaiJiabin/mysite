@@ -285,3 +285,64 @@ featuredImagePreview: "/japanese.jpg"
 3. いま　なんじですか。
 
     e.g. にほん __は__ いま　あさ　1時(じ)ですね。
+
+## 11. しゅみは なんですか -> Was ist deine Hobbys?
+
+### Klassifikation der Hobbys
+
+| スポーツ を します Sport treiben | えいが を みます Film ansehen | おんげく を ききます Musik hoeren | どくしょ(ほん) を よみます Buecher lesen |
+| :------------------------------: | :---------------------------: | :-------------------------------: | :--------------------------------------: |
+|            じゅうどう            |      コメディー Komidie       |        クラシック Klassik         |                しょうせと                |
+|           テニス Tenis           |       れんあい Romance        |          ピアノ Klavier           |                 ぶんがく                 |
+|        やきゅう Baseball         |       アクション Aktion       |            ジャズ Jazz            |                 れんあい                 |
+|        サッカー Fussball         |         アニメ Anime          |          ギター Gittare           |           ミステリー Mysterium           |
+|                                  |         ホラー Horry          |              ロック               |               マンガ Komik               |
+|                                  |                               |               うた                |           ファンタジー Fiktion           |
+|                                  |                               |           ポップス Pop            |            ざっし Zeitschrift            |
+
+### Wo treibst du Sport?
+
+- うちで zu Hause
+  - ゆっくり を します -> faulenzen
+- そとで Ausser
+  - え を かきます -> malen
+  - しゃしん を とります -> fotografieren
+
+### Wie oft treibst du Sport?
+
+- ぜんぜん Niemals
+- あまり しません nicht so oft
+- ときどき manchmal
+- よく oft
+
+### Einige Verben
+
+- いいます/言います -> sagen
+- はなします/話します -> sprechen
+  - がいこくご を はなします -> Fremdshrache sprechen
+  - がいこくご を べんきょう します -> Fremdshrache lernen
+- よみます/読みます -> lesen
+- みます/見ます -> ansehen
+- ききます/聞きます -> hoeren
+- かきます/書きます -> schreiben
+
+### Beispiel
+
+1. Bsp1
+
+    - しゅみは なんですか
+    - スポーツ です。
+    - どんあ スポーツ __が__ すきですか。
+    - サッカー __が__ すきです。／ やきゅう  __が__ できです。
+
+2. Bsp2
+
+    - やすみの ひに なにを しますか。 -> Was machst du im freien Tag?
+    - うちで よく えいが を 見ます。
+    - どんな えいがを 見ますか。
+    - アクションえいがを よく 見ます。
+      
+      コメディーも ときどき 見ます。
+
+    - そですか。ホラーわ。
+    - ホラーは ぜんぜん 見ません。
