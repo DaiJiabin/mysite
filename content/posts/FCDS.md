@@ -9,6 +9,8 @@ featuredImagePreview: "/TUD.png"
 
 ## 01. Synchronization
 
+### Overview
+
 ![Synchronization](/FCDS/Synchronization.png)
 
 ### Notes
