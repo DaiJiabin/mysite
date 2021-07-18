@@ -9,6 +9,8 @@ featuredImagePreview: "/TUD.png"
 
 ## 01. Synchronization
 
+In this Chapter we will discuss Synchronization in detail. Mindmaps see below.
+
 ### Overview
 
 ![Synchronization](/FCDS/Synchronization.png)
