@@ -1,6 +1,6 @@
 ---
-title: "FCDS"
-date: 2021-06-30T22:07:37+02:00
+title: "BAS4 FCDS"
+date: 2021-07-18T16:43:09+02:00
 draft: false
 tags: [Kurse]
 categories: [TUD]
@@ -18,3 +18,4 @@ In this Chapter we will discuss Synchronization in detail. Mindmaps see below.
 ### Notes
 
 1. This is a test, to show this article.
+
